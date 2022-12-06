@@ -1,9 +1,11 @@
-import { Router } from './Router'
-import './App.css'
+import { ApplicationRoutes } from '/src/Router'
+import './global.css'
 
 function App() {
   return (
-    <Router />
+    <div className="App"> 
+      <ApplicationRoutes />
+    </div>
   )
 }
 
