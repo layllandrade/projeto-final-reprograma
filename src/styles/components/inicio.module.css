@@ -1,0 +1,7 @@
+.inicioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    text-align: center;
+}

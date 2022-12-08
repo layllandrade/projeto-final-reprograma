@@ -1,19 +1,28 @@
 .menuContainer {
     background-color: rgb(255, 255, 255);
     display: flex;
-    gap: 7rem;
+    gap: 6rem;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.33);
+    border-radius: 16px;
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
 }
 .menuItem {
     list-style: none;
     text-align: center;
 }
+.menuItem:hover{
+    -webkit-text-stroke: 1px; 
+    transition-timing-function: ease-in-out;
+}
+
 .menuLink {
     text-decoration: none;
-    color: #00d0f2;
-    font-size: 1.5rem;
+    color: #52595a;
+    font-size: 1.3rem;
 }
 .logo {
     width: 10em;
