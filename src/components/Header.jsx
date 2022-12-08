@@ -6,8 +6,11 @@ import styles from '../styles/components/header.module.css'
 export function Header(props) {
     return(
       <div className={styles.headerContainer}>
-        <Titulo titulo={props.titulo} />
-        <Descricao descricao={props.descricao}/>
+        <img className={styles.headerImage} src={props.imagem} />
+        <div className={styles.descricaoContainer}>
+          <Titulo titulo={props.titulo} />
+          <Descricao descricao={props.descricao}/>
+        </div>
       </div>
     )
 }
