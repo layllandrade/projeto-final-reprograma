@@ -1,0 +1,33 @@
+.sobreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #efeff3;
+    
+}
+
+.sobreParagrafo {
+    color:#464646f2;
+}
+
+.sobreContainerVoluntarios {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.imgVoluntarios {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.titulo {
+    color:rgb(64, 63, 64);
+}
+
+.descricaoVoluntarios {
+    color:#464646f2;
+}

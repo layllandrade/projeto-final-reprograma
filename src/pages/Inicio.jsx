@@ -1,5 +1,5 @@
 import { Header } from "../components/Header";
-import styles from "../styles/components/inicio.module.css"
+import styles from "../styles/pages/inicio.module.css"
 import transImg from '../assets/trans.png'
 
 export function Inicio() {
