@@ -1,12 +1,32 @@
 .footerContainer {
     padding: 2rem;
-    background: #0400ff54;
+    background: #3c93bfb8;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
   
 .footerText {
     color: #fff;
     font-size: 1rem;
+}
+
+.footerTextContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerIconsContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footerIcons {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.footerIconsLink {
+    color: #fff;
 }
