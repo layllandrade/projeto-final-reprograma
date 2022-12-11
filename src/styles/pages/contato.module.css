@@ -1,0 +1,71 @@
+.contatoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.titulo {
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(123, 122, 122);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.formulario {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [label] auto [input] 1fr;
+    width: 50%;
+}
+
+input {
+    grid-column: input;
+    align-self: center;
+}
+
+label {
+    grid-column: label;
+    align-self: center;
+}
+
+.botao {
+    width: 150px;
+}
+
+.contatoLinksContainer {
+    display: flex;
+    padding: 4em;
+    gap:10px;
+    background: #efeff3;
+    width: 100%;
+}
+
+.contatos {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contatoTelefone {
+    color:rgb(123, 122, 122);
+}
+
+.contatoInstagram {
+    color:rgb(123, 122, 122);
+}
+
+.contatoEmail {
+    color:rgb(123, 122, 122);
+}
