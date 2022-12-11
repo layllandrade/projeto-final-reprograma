@@ -1,7 +1,16 @@
 .inicioContainer {
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9rem;
+    gap: 6rem;
     text-align: center;
+}
+
+.video {
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.titulo {
+    color: rgb(123, 122, 122);
+    padding: 20px;
 }

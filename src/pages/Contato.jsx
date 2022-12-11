@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons"
-import { faPhoneSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faPhoneSquare, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 import styles from '../styles/pages/contato.module.css'
 
@@ -13,7 +13,10 @@ export function Contato() {
 
   return(
     <div className={styles.contatoContainer}>
-      <h3 className={styles.titulo}>Fale Conosco</h3>
+      <div className={styles.faleConoscoContainer}>
+        <h3 className={styles.titulo}>Fale Conosco</h3>
+        <FontAwesomeIcon icon={faPhone} size="lg" color="#ffabba"/> 
+      </div>
 
       <form onSubmit={submeterFormulario}>
         <div className={styles.formulario}>
@@ -42,7 +45,7 @@ export function Contato() {
           <div className={styles.contatos}>
             <FontAwesomeIcon icon={faEnvelope} size="2x" color=" #a39a9ab8"/>
             <p className={styles.contatoEmail}>transformacampina@hotmail.com</p>
-          </div>   
+          </div>  
       </div>
     </div>
   )
