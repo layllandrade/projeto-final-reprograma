@@ -17,7 +17,7 @@ export function Menu() {
         <Link className={styles.menuLink} to="/doe">Faça sua doação</Link>
       </li>
       <li className={styles.menuItem}>
-        <Link className={styles.menuLink} to="/queroreceber">Quero receber</Link>
+        <Link className={styles.menuLink} to="/receberdoacao">Quero receber</Link>
       </li>
       <li className={styles.menuItem}>
         <Link className={styles.menuLink} to="/contato">Contato</Link>
