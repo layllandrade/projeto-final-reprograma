@@ -1,0 +1,35 @@
+.doeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    background: #efeff3;
+}
+.formulario {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [label] auto [input] 1fr;
+    width: 50%;
+}
+
+input {
+    grid-column: input;
+    align-self: center;
+}
+
+label {
+    grid-column: label;
+    align-self: center;
+}
+
+.botao {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid;
+    background-color: #3c93bfd4;
+    color: white;
+    height: 35px;
+}
