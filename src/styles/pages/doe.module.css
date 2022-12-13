@@ -62,3 +62,7 @@ label {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.inputNumber {
+    width: 50px;
+}

@@ -121,6 +121,12 @@ export function Doe() {
               </option>) 
             }
           </select>
+          <label htmlFor="nome">Roupas</label>
+          <input type="number" className={styles.inputNumber} min="0" name="nome"/>
+          <label htmlFor="nome">Calçados</label>
+          <input type="number" className={styles.inputNumber} min="0" name="nome"/>
+          <label htmlFor="nome">Acessórios</label>
+          <input type="number" className={styles.inputNumber} min="0" name="nome"/>
         </div>
         
         <button type="submit" className={styles.botao}>Enviar</button>
