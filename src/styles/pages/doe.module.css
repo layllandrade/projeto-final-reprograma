@@ -7,11 +7,13 @@
     gap: 30px;
     background: #efeff3;
 }
+
 .formulario {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: [label] auto [input] 1fr;
     width: 50%;
+    padding: 20px;
 }
 
 input {
@@ -32,4 +34,31 @@ label {
     background-color: #3c93bfd4;
     color: white;
     height: 35px;
+}
+
+.titulo {
+    color: rgb(123, 122, 122);
+}
+
+.retiradaContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contatoWhatsapp {
+    color:rgb(123, 122, 122);
+}
+
+.contato {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contatoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faWhatsappSquare } from "@fortawesome/free-brands-svg-icons"
+
 import styles from '../styles/pages/doe.module.css'
 
 export function Doe() {
@@ -122,6 +125,23 @@ export function Doe() {
         
         <button type="submit" className={styles.botao}>Enviar</button>
       </form>
+      <div className={styles.retiradaContainer}>
+        <h3 className={styles.titulo}>Não pode realizar o envio da doação? Entre em contato com um de nossos voluntários e combine a retirada.</h3>
+        <div className={styles.contatoContainer}>
+          <div className={styles.contato}>
+            <FontAwesomeIcon icon={faWhatsappSquare} size="2x" color="#25d366"/>
+            <a className={styles.contatoWhatsapp} href="https://api.whatsapp.com/send/?phone=5583986259203&text=Ol%C3%A1%2C+vim+do+transforma+campina&type=phone_number&app_absent=0"> Voluntário 1</a>
+          </div>
+          <div className={styles.contato}>
+            <FontAwesomeIcon icon={faWhatsappSquare} size="2x" color="#25d366"/>
+            <a className={styles.contatoWhatsapp} href="https://api.whatsapp.com/send/?phone=5583986259203&text=Ol%C3%A1%2C+vim+do+transforma+campina&type=phone_number&app_absent=0"> Voluntário 2</a>
+          </div>
+          <div className={styles.contato}>
+            <FontAwesomeIcon icon={faWhatsappSquare} size="2x" color="#25d366"/>
+            <a className={styles.contatoWhatsapp} href="https://api.whatsapp.com/send/?phone=5583986259203&text=Ol%C3%A1%2C+vim+do+transforma+campina&type=phone_number&app_absent=0"> Voluntário 3</a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
