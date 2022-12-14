@@ -30,3 +30,17 @@
 .footerIconsLink {
     color: #fff;
 }
+@media screen and (max-width: 480px) {
+    .footerContainer {
+        padding: 1rem;
+    }
+    .footerText {
+        font-size: 12px;
+    }
+    .fa-3x {
+        font-size: 2em;
+    }
+    .footerIconsLink {
+        font-size: 12px;
+    }
+}
