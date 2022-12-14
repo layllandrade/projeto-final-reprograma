@@ -27,3 +27,18 @@
 .logo {
     width: 10em;
 }
+
+@media screen and (max-width: 480px) {
+    .menuContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+}
+    .menuLink {
+        font-size: 1rem;
+    }
+    .logo {
+        width: 8em;
+    }
+}
