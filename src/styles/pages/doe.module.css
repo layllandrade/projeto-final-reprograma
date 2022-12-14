@@ -68,3 +68,27 @@ label {
 .inputNumber {
     width: 50px;
 }
+@media screen and (max-width: 480px) {
+    .titulo {
+        font-size: 15px;
+    }
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 5px;
+        padding: 10px;
+    }
+    .botao {
+        width: 73px;
+        font-size: 12px;
+    }
+    .doeContainer {
+        gap: 9px;
+    }
+    .contatoContainer {
+        padding: 10px;
+    }
+    .contatoWhatsapp {
+        font-size: 12px;
+    }
+}
