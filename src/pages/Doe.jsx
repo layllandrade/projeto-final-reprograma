@@ -100,9 +100,10 @@ export function Doe() {
   }
 
   return(
-    <div className={styles.doeContainer}>
+    <div className={styles.doeContainer}> 
       <form onSubmit={submeterFormulario}>
-        <div className={styles.formulario}>          
+      <h3 className={styles.tituloFormulario}> Preencha os campos com seus dados: </h3>  
+        <div className={styles.formulario}>        
           <label htmlFor="nome">Nome:</label>
           <input type="text" className={styles.input} name="nome" value={nome} onChange={e => setNome(e.target.value)}/>
 
@@ -121,6 +122,9 @@ export function Doe() {
               </option>) 
             }
           </select>
+        </div>
+        <h3>Escolha a quantidade de peças de acordo com a quantidade:</h3>
+        <div className={styles.formulario}>
           <label htmlFor="nome">Roupas</label>
           <input type="number" className={styles.inputNumber} min="0" name="nome"/>
           <label htmlFor="nome">Calçados</label>
