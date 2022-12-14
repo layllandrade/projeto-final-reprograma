@@ -23,6 +23,7 @@ input {
 
 label {
     grid-column: label;
+    width: 150px;
     align-self: center;
 }
 

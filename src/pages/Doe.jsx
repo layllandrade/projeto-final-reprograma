@@ -102,7 +102,7 @@ export function Doe() {
   return(
     <div className={styles.doeContainer}> 
       <form onSubmit={submeterFormulario}>
-      <h3 className={styles.tituloFormulario}> Preencha os campos com seus dados: </h3>  
+        <h3 className={styles.tituloFormulario}> Preencha os campos com seus dados: </h3>  
         <div className={styles.formulario}>        
           <label htmlFor="nome">Nome:</label>
           <input type="text" className={styles.input} name="nome" value={nome} onChange={e => setNome(e.target.value)}/>
@@ -113,9 +113,9 @@ export function Doe() {
           <label htmlFor="telefone">Telefone:</label>
           <input type="text" className={styles.input} name="telefone" value={telefone} onChange={e => setTelefone(e.target.value)}/>
 
-          <label htmlFor="enderecoColeta">Endereço da coleta:</label>
+          <label htmlFor="enderecoColeta">Endereço da entrega:</label>
           <select name="enderecoColeta" value={enderecoColeta} onChange={e => setEnderecoColeta(e.target.value)}>
-            <option value="">Selecione o endereço da coleta</option>
+            <option value="">Selecione o endereço da entrega</option>
             { enderecos.map((endereco) => 
               <option key={endereco.id} value={endereco.id}>
                 {endereco.endereco + ", " + endereco.numero + " - " + endereco.bairro}
