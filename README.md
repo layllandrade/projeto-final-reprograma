@@ -1,9 +1,7 @@
 ## Projeto Final
-### ``
+  ### Todas em tech - Turma On20 - Frontend - {Reprograma} 
 
-> ⚠️ 
-
-# 🧠 Contexto
+# 🧠 Projeto realizado com todas as tecnologias aprendidas durante o curso de front end do todas em tech do {Reprograma}
 
 
 # Tecnologias usadas
@@ -35,9 +33,9 @@ Ou seja, o css-modules é um processo que ocorre durante o passo de build, que a
 Pensando que ao utilizar o React para o desenvolvimento de uma aplicação padrão SPA (Single Page Application) e que nessa aplicação seja possível acessar outras interfaces e componentes, há a necessidade de fazer o roteamento dos caminhos que serão acessados. A maneira mais completa de fazer isso e também uma das mais utilizadas é com a biblioteca chamada react-router, que possui uma versão web chamada react-router-dom.
 O react-router-dom é uma biblioteca padrão para que você consiga fazer o roteamento das páginas da sua aplicação de forma dinâmica.
 
-* React Axios
+* Fontawesome 
 
-Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quanto no Node.js ou qualquer serviço de API. Ele é uma biblioteca leve e também uma alternativa para quem usa o fetch api.
+Font Awesome é um conjunto de ferramentas de fontes e ícones com base em CSS e LESS. Foi feito por Dave Gandy para uso com o Twitter Bootstrap e mais tarde foi incorporado no BootstrapCDN.
 
 * Vercel 
 
