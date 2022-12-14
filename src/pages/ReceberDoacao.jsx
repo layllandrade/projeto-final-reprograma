@@ -27,6 +27,7 @@ export function ReceberDoacao() {
     return(
       <div className={styles.receberContainer}>
         <form onSubmit={submeterFormulario}>
+          <h3 className={styles.titulo}>Preencha os campos com seus dados:</h3>
           <div className={styles.formulario}>          
             <label htmlFor="nome">Nome:</label>
             <input type="text" className={styles.input} name="nome" value={nome} onChange={e => setNome(e.target.value)}/>

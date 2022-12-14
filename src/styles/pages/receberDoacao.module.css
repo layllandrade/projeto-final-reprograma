@@ -51,3 +51,7 @@ label {
     align-self: center;
     width: 50px;
 }
+.titulo {
+    color: rgb(123, 122, 122);
+    padding-top: 20px;
+}
