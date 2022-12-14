@@ -16,3 +16,16 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width: 480px) {
+    .headerContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+    .headerImage {
+        width: 200px;
+}
+.descricaoContainer {
+    font-size: 13px;
+}
+}

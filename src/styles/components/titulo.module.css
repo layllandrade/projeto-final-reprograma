@@ -1,3 +1,8 @@
 .titulo {
     color:hsl(299deg 3% 63%);
 }
+@media screen and (max-width: 480px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+}
