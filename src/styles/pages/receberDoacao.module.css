@@ -34,3 +34,20 @@ label {
     color: white;
     height: 35px;
 }
+
+.telefone {
+    grid-column: input;
+    align-self: center;
+    width: 120px;
+}
+.profissao {
+    grid-column: input;
+    align-self: center;
+    width: 120px;
+}
+
+.idade {
+    grid-column: input;
+    align-self: center;
+    width: 50px;
+}

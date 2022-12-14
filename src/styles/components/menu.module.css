@@ -27,11 +27,3 @@
 .logo {
     width: 10em;
 }
-  
-@media(max-width: 765px) {
-    .menuContainer {
-      disply: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-}

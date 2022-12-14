@@ -33,17 +33,18 @@ export function ReceberDoacao() {
             <label htmlFor="email">E-mail:</label>
             <input type="email" className={styles.input} name="email" value={email} onChange={e => setEmail(e.target.value)}/>
             
-            <label htmlFor="telefone">Telefone:</label>
-            <input type="telefone" className={styles.input} name="telefone" value={telefone} onChange={e => setTelefone(e.target.value)}/>
-            
-            <label htmlFor="idade">Idade:</label>
-            <input type="idade" className={styles.input} name="idade" value={idade} onChange={e => setIdade(e.target.value)}/>
-            
-            <label htmlFor="profissao">Profissão:</label>
-            <input type="profissao" className={styles.input} name="profissao" value={profissao} onChange={e => setProfissao(e.target.value)}/>
             
             <label htmlFor="endereco">Endereço:</label>
             <input type="endereco" className={styles.input} name="endereco" value={endereco} onChange={e => setEndereco(e.target.value)}/>
+          
+            <label htmlFor="profissao">Profissão:</label>
+            <input type="profissao" className={styles.profissao} name="profissao" value={profissao} onChange={e => setProfissao(e.target.value)}/>
+
+            <label htmlFor="telefone">Telefone:</label>
+            <input type="telefone" className={styles.telefone} name="telefone" value={telefone} onChange={e => setTelefone(e.target.value)}/>
+
+            <label htmlFor="idade">Idade:</label>
+            <input type="idade" className={styles.idade} name="idade" value={idade} onChange={e => setIdade(e.target.value)}/>
           </div>
 
           <button type="submit" className={styles.botao}>Enviar</button>
