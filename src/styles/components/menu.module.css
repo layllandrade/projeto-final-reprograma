@@ -31,14 +31,13 @@
 @media screen and (max-width: 480px) {
     .menuContainer {
         display: flex;
-        flex-direction: column;
-        gap: 1rem;
+        gap: 9px;
         
 }
     .menuLink {
-        font-size: 1rem;
+        font-size: 12px;
     }
     .logo {
-        width: 8em;
+        width: 100px;
     }
 }

@@ -82,3 +82,37 @@ label {
 .contatoEmail {
     color:rgb(123, 122, 122);
 }
+@media screen and (max-width: 480px) {
+    .contatoContainer {
+        gap: 20px;
+    }
+    .titulo{
+        font-size: 16px;
+    }
+    .botao {
+        width: 80px;
+        font-size: 13px;
+    }
+    .contatoTelefone {
+        font-size: 12px;
+    }
+    .contatoInstagram {
+        font-size: 12px;
+    }
+    .contatoEmail {
+        font-size: 12px;
+    }
+    .contatos {
+        display: flex;
+        flex-direction: column;
+    }
+    .contatoLinksContainer {
+        padding: 1em;
+    }
+    .formulario {
+        width: 60%;
+    }
+    .faleConoscoContainer {
+        padding-top: 25px;
+    }
+}
