@@ -10,6 +10,7 @@ export function ReceberDoacao() {
   const [idade, setIdade] = useState("")
   const [profissao, setProfissao] = useState("")
   const [endereco, setEndereco] = useState("")
+  const [genero, setGenero] = useState("")
 
   function submeterFormulario(e) {
     e.preventDefault();
@@ -45,6 +46,14 @@ export function ReceberDoacao() {
 
             <label htmlFor="idade">Idade:</label>
             <input type="idade" className={styles.idade} name="idade" value={idade} onChange={e => setIdade(e.target.value)}/>
+            
+            <label htmlFor="genero">Tenho interesse em peças do gênero:</label>
+            <select name="genero" value={genero} onChange={e => setGenero(e.target.value)}>
+              <option value="">Selecione o gênero</option>
+              <option value="Feminino">Feminino</option>
+              <option value="Masculino">Masculino</option>
+              <option value="Fluido">Gênero fluido</option>   
+            </select>
           </div>
 
           <button type="submit" className={styles.botao}>Enviar</button>
