@@ -19,11 +19,13 @@
     align-items: center;
     width: 70%;
 }
+
 .imgVoluntarios {
     width: 150px;
     height: 150px;
     border-radius: 100%;
 }
+
 .titulo {
     color: rgb(155 149 155);
 }
@@ -31,20 +33,25 @@
 .descricaoVoluntarios {
     color:#464646f2;
 }
+
 @media screen and (max-width: 480px) {
     .sobreContainer {
         padding: 20px;
     }
+
     .sobreParagrafo {
         font-size: 13px;
     }
+
     .titulo {
         font-size: 20px;
     }
+
     .imgVoluntarios {
         width: 100px;
         height: 100px;
     }
+    
     .descricaoVoluntarios {
         font-size: 13px;
     }

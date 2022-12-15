@@ -11,8 +11,9 @@
 }
 
 .titulo {
-    color: rgb(123, 122, 122);
+    color: rgb(167 165 165);
     padding: 20px;
+    font-size: 25px;
 }
 
 .mapContainer {

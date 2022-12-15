@@ -12,21 +12,25 @@
 .headerImage {
     border-radius: 100%;
 }
+
 .descricaoContainer {
     display: flex;
     flex-direction: column;
 }
+
 @media screen and (max-width: 480px) {
     .headerContainer{
         display: flex;
         flex-direction: column;
         padding: 3em;
         gap: 2rem;
-}
+    }
+
     .headerImage {
         width: 200px;
-}
+    }
+    
     .descricaoContainer {
         font-size: 13px;
-}
+    }
 }

@@ -41,6 +41,7 @@ label {
     align-self: center;
     width: 120px;
 }
+
 .profissao {
     grid-column: input;
     align-self: center;
@@ -56,16 +57,19 @@ label {
     color: rgb(123, 122, 122);
     padding-top: 20px;
 }
+
 @media screen and (max-width: 480px) {
     .titulo {
         font-size: 15px;
     }
+
     .formulario {
         display: flex;
         flex-direction: column;
         grid-gap: 5px;
         padding: 10px;
     }
+    
     .botao {
         width: 80px;
         font-size: 13px;

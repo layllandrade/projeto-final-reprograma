@@ -22,14 +22,17 @@
     justify-content: center;
     gap: 30px;
 }
+
 .footerIcons {
     gap: 10px;
     display: flex;
     align-items: center;
 }
+
 .footerIconsLink {
     color: #fff;
 }
+
 @media screen and (max-width: 480px) {
     .footerContainer {
         padding: 1rem;

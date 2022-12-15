@@ -10,10 +10,12 @@
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.6px);
 }
+
 .menuItem {
     list-style: none;
     text-align: center;
 }
+
 .menuItem:hover{
     -webkit-text-stroke: 1px; 
     transition-timing-function: ease-in-out;
@@ -21,9 +23,10 @@
 
 .menuLink {
     text-decoration: none;
-    color: #52595a;
+    color: #9d9b9b;
     font-size: 1.3rem;
 }
+
 .logo {
     width: 10em;
 }
@@ -33,10 +36,12 @@
         display: flex;
         gap: 9px;
         
-}
+    }
+
     .menuLink {
         font-size: 12px;
     }
+
     .logo {
         width: 100px;
     }
