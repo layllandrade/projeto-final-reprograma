@@ -14,6 +14,13 @@
     color: rgb(123, 122, 122);
     padding: 20px;
 }
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
 @media screen and (max-width: 480px) {
     .titulo {
         padding: 13px;

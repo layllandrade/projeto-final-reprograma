@@ -1,7 +1,7 @@
 ## Projeto Final
   ### Todas em tech - Turma On20 - Frontend - {Reprograma} 
 
-# 🧠 Projeto realizado com todas as tecnologias aprendidas durante o curso de front end do todas em tech do {Reprograma}
+# 🧠 Projeto realizado com as tecnologias aprendidas durante o curso de front end do todas em tech do {Reprograma}
 
 
 # Tecnologias usadas
