@@ -45,6 +45,10 @@ A Vercel é uma plataforma voltada para a hospedagem de aplicações de uma form
 
 É um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos compartilhados enquanto mantêm um registro detalhado do seu progresso.
 
+* Api de mapa do Google
+
+É um serviço público e gratuito que qualquer pessoa pode usar em seus sites e aplicações. Incorpora um mapa do Google em sua página da web usando JavaScript, manipula o mapa e adiciona conteúdo com a ajuda de vários serviços.
+
 ### Como rodar esse projeto localmente
 
 * Faça o fork
@@ -55,7 +59,7 @@ A Vercel é uma plataforma voltada para a hospedagem de aplicações de uma form
 ### Melhorias Futuras
 
 * Revisar acessibilidade
-* Responsividade (Criação de media queries: mobile, tablet, tablet landscape e laptops)
+* Responsividade (Criação de media queries: tablet, tablet landscape e laptops)
 
 <p align="center">
 Feito com 💜 por Laylla Andrade
