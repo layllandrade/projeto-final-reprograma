@@ -16,7 +16,7 @@ export function Inicio() {
       </div>
       <div>
         <h2 className={styles.titulo}>Assista ao Documentario: "Liberdade: A coragem de ser quem você é "</h2>
-        <iframe width="600" height="400" src="https://www.youtube.com/embed/_QlnZvI6e7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className={styles.video}></iframe>
+        <iframe className={styles.video} src="https://www.youtube.com/embed/_QlnZvI6e7w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <h3 className={styles.titulo}> Confira no mapa nossos pontos de coleta:</h3>
       <div className={styles.mapContainer}>

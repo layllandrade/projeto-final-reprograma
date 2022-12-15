@@ -21,9 +21,19 @@
     padding: 30px;
 }
 
+.video {
+    width:600px;
+    height:400px;
+}
+
 @media screen and (max-width: 480px) {
     .titulo {
         padding: 13px;
         font-size: 15px;
+    }
+
+    .video {
+        width:400px;
+        height:300px;
     }
 }

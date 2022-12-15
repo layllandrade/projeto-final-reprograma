@@ -34,13 +34,20 @@
     .footerContainer {
         padding: 1rem;
     }
+
     .footerText {
         font-size: 12px;
     }
-    .fa-3x {
+
+    .fa {
         font-size: 2em;
     }
+
     .footerIconsLink {
         font-size: 12px;
+    }
+
+    .footerTextContainer {
+      width: 45%;
     }
 }

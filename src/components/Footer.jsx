@@ -12,11 +12,11 @@ export function Footer() {
         </div>
         <div className={styles.footerIconsContainer}>
           <div className={styles.footerIcons}>
-            <FontAwesomeIcon icon={faLinkedin} size="3x" color="white" />
+            <FontAwesomeIcon className={styles.fa} icon={faLinkedin} size="3x" color="white" />
             <a className={styles.footerIconsLink} href="https://www.linkedin.com/in/laylla-farias/">/laylla-farias</a>
           </div>
           <div className={styles.footerIcons}>
-            <FontAwesomeIcon icon={faGithubSquare} size="3x" color="white"/>
+            <FontAwesomeIcon className={styles.fa} icon={faGithubSquare} size="3x" color="white"/>
             <a className={styles.footerIconsLink} href="https://github.com/layllandrade">/layllandrade</a>
           </div>
         </div>
