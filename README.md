@@ -1,20 +1,17 @@
 ## Projeto Final
-  ### Todas em tech - Turma On20 - Frontend - {Reprograma} 
+  ## Todas em tech - Turma On20 - Frontend - {Reprograma} 
 
 # 🧠 Projeto realizado com as tecnologias aprendidas durante o curso de front end do todas em tech do {Reprograma}
 
 
 ### Sobre o que é o projeto?
-
-                  TRANSforma Campina 
-
-      O projeto Transforma Campina é um trabalho voluntário, que foi criado no intuito de ajudar pessoas que estão no início da transição de gênero e em situação de vulnerabilidade econômica. O projeto tem como proposito arrecadar doações de peças de roupas, calçados e acessórios. Fazendo com que os beneficiados consigam se vestir da forma como o qual se identificam, trazendo assim mais auto estima, apoio e auto confiança para essas pessoas nesse período.
+- O projeto Transforma Campina é um trabalho voluntário, que foi criado no intuito de ajudar pessoas que estão no início da transição de gênero e em situação de vulnerabilidade econômica. O projeto tem como proposito arrecadar doações de peças de roupas, calçados e acessórios. Fazendo com que os beneficiados consigam se vestir da forma como o qual se identificam, trazendo assim mais auto estima, apoio e auto confiança para essas pessoas nesse período.
 
 ### O que motivou a criação do projeto?
-      O projeto foi motivado por um projeto já existente em Campina Grande, o CTC, Coletivo TransMasculino Campinense. Minha intenção na criação desta página foi abranger também as pessoas que estão em processo de transição para o gênero feminino e o gênero fluido. 
+- O projeto foi motivado por um projeto já existente em Campina Grande, o CTC, Coletivo TransMasculino Campinense. Minha intenção na criação desta página foi abranger também as pessoas que estão em processo de transição para o gênero feminino e o gênero fluido. 
 
 ### Quais melhorias o projeto trouxe enquanto plataforma de doações?
-      Apresentação de pontos de coleta na cidade para melhorar a logística de doações, facilitação no processo de agendamento das pessoas que almejam doar, e também auxilio no que diz respeito a comunicação e avaliação de pessoas que desejam receber as doações.
+ - Apresentação de pontos de coleta na cidade para melhorar a logística de doações, facilitação no processo de agendamento das pessoas que almejam doar, e também auxilio no que diz respeito a comunicação e avaliação de pessoas que desejam receber as doações.
 
 # Tecnologias usadas
  * React.js
