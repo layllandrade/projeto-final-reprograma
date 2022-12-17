@@ -34,6 +34,7 @@ function Map() {
   const crasLiberdade = { lat: -7.230080894, lng: -35.89146763 };
   const crasGloria = { lat: -7.2108037, lng: -35.8568299 };
   const crasPalmeira = { lat: -7.1984548, lng: -35.8944612 };
+  const Crlgbt = { lat: -7.22587327225375, lng: -35.893009523287354 };
 
   return (
     <GoogleMap zoom={14} center={crasPedregal} mapContainerClassName="map-container">
@@ -45,6 +46,7 @@ function Map() {
       <MarkerF position={crasLiberdade} label="Cras Liberdade"/>
       <MarkerF position={crasGloria} label="Cras Gloria"/>
       <MarkerF position={crasPalmeira} label="Cras Palmeira"/>
+      <MarkerF position={Crlgbt} label="Centro Estadual dos Direitos de LGBT"/>
     </GoogleMap>
   );
 }
