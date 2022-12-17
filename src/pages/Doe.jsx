@@ -9,6 +9,11 @@ export function Doe() {
   const [email, setEmail] = useState("")
   const [telefone, setTelefone] = useState("")
   const [enderecoColeta, setEnderecoColeta] = useState("")
+  const [roupas, setRoupas] = useState("")
+  const [calcados, setCalcados] = useState("")
+  const [acessorios, setAcessorios] = useState("")
+  
+  const [modalAberto, setModalAberto] = useState(false)
 
   const enderecos = [
     { 
@@ -88,15 +93,15 @@ export function Doe() {
   
   function submeterFormulario(e) {
     e.preventDefault();
+    setModalAberto(true)
+  }
 
-    console.log("Valores dos formulários")
-    console.log("nome = " + nome)
-    console.log("email = " + email)
-    console.log("telefone = " + telefone)
-    console.log("endereço = " + enderecoColeta)
+  function fecharModal() {
+    setModalAberto(false)
+  }
 
-    // Pega a coleção de endereços e faz um filtro a partir do endereço de coleta selecionado
-    const enderecoSelecionado = enderecos.filter((elemento) => elemento.id == enderecoColeta)[0]
+  function confirmar() {
+    fecharModal()
   }
 
   return(
@@ -117,7 +122,10 @@ export function Doe() {
           <select name="enderecoColeta" value={enderecoColeta} onChange={e => setEnderecoColeta(e.target.value)}>
             <option value="">Selecione o endereço da entrega</option>
             { enderecos.map((endereco) => 
-              <option key={endereco.id} value={endereco.id}>
+              <option 
+                key={endereco.id} 
+                value={endereco.endereco + ", " + endereco.numero + " - " + endereco.bairro}
+              >
                 {endereco.endereco + ", " + endereco.numero + " - " + endereco.bairro}
               </option>) 
             }
@@ -126,11 +134,11 @@ export function Doe() {
         <h3 className={styles.titulo}>Escolha a quantidade de peças de acordo com a quantidade:</h3>
         <div className={styles.formulario}>
           <label htmlFor="nome">Roupas</label>
-          <input type="number" className={styles.inputNumber} min="0" name="nome"/>
+          <input type="number" className={styles.inputNumber} min="0" name="nome" value={roupas} onChange={e => setRoupas(e.target.value)}/>
           <label htmlFor="nome">Calçados</label>
-          <input type="number" className={styles.inputNumber} min="0" name="nome"/>
+          <input type="number" className={styles.inputNumber} min="0" name="nome" value={calcados} onChange={e => setCalcados(e.target.value)}/>
           <label htmlFor="nome">Acessórios</label>
-          <input type="number" className={styles.inputNumber} min="0" name="nome"/>
+          <input type="number" className={styles.inputNumber} min="0" name="nome" value={acessorios} onChange={e => setAcessorios(e.target.value)}/>
         </div>
         
         <button type="submit" className={styles.botao}>Enviar</button>
@@ -152,6 +160,25 @@ export function Doe() {
           </div>
         </div>
       </div>
+
+      <dialog open={modalAberto} className={styles.dialog}>
+        <h4>Você confirma as informações abaixo?</h4>
+        <p>Nome: {nome}</p>
+        <p>Email: {email}</p>
+        <p>Telefone: {telefone}</p>
+        <p>Endereço: {enderecoColeta}</p>
+
+        <h4>Peças a serem doadas:</h4>
+
+        <p>Roupas: {roupas}</p>
+        <p>Calçados: {calcados}</p>
+        <p>Acessórios: {acessorios}</p>
+
+        <div className={styles.containerBotoes}>
+          <button type="button" className={styles.botaoFechar} onClick={fecharModal}>Fechar</button>
+          <button type="button" className={styles.botaoConfirmar} onClick={confirmar}>Confirmar</button>
+        </div>
+      </dialog>
     </div>
   )
 }
