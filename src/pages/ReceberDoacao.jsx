@@ -69,7 +69,7 @@ export function ReceberDoacao() {
         <p>Profissão: {profissao}</p>
         <p>Telefone: {telefone}</p>
         <p>Idade: {idade}</p>
-        <p>Gênero: {genero}</p>
+        <p>Tenho interesse em peças do gênero: {genero}</p>
 
         <div className={styles.containerBotoes}>
           <button type="button" className={styles.botaoFechar} onClick={fecharModal}>Fechar</button>
