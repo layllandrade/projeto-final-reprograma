@@ -82,6 +82,34 @@ label {
 .contatoEmail {
     color:rgb(123, 122, 122);
 }
+.containerBotoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botaoConfirmar {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid;
+    background-color: #17b135d4;
+    color: white;
+    height: 35px;
+    cursor: pointer;
+}
+
+.botaoFechar {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid;
+    background-color: #b11717d4;
+    color: white;
+    height: 35px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 480px) {
     .contatoContainer {

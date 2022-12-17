@@ -1,14 +1,29 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons"
 import { faPhoneSquare, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons"
+import { useState } from 'react';
+
 
 import styles from '../styles/pages/contato.module.css'
 
 export function Contato() {
+  const [nome, setNome] = useState("")
+  const [email, setEmail] = useState("")
+  const [mensagem, setMensagem] = useState("")
+
+  const [modalAberto, setModalAberto] = useState(false)
+
   function submeterFormulario(e) {
     e.preventDefault();
+    setModalAberto(true)
+  }
 
-    alert(`formulario submetido`);    
+  function fecharModal() {
+    setModalAberto(false)
+    }
+  
+  function confirmar() {
+    fecharModal()
   }
 
   return(
@@ -21,13 +36,13 @@ export function Contato() {
       <form onSubmit={submeterFormulario}>
         <div className={styles.formulario}>
           <label htmlFor="nome">Nome:</label>
-          <input type="text" className={styles.input} name="nome" />
+          <input type="text" className={styles.input} name="nome" value={nome} onChange={e => setNome(e.target.value)} />
 
           <label htmlFor="email">E-mail:</label>
-          <input type="email" className={styles.input} name="email" />
+          <input type="email" className={styles.input} name="email" value={email} onChange={e => setEmail(e.target.value)}/>
       
           <label htmlFor="texto">Mensagem:</label>
-          <textarea className={styles.areaTexto} name="texto" rows="6"></textarea>
+          <textarea className={styles.areaTexto} name="texto" rows="6" value={mensagem} onChange={e => setMensagem(e.target.value)}></textarea>
         </div>
         
         <button type="submit" className={styles.botao}>Enviar</button>
@@ -47,6 +62,17 @@ export function Contato() {
             <p className={styles.contatoEmail}>transformacampina@hotmail.com</p>
           </div>  
       </div>
+      <dialog open={modalAberto} className={styles.dialog}>
+        <h4>Você confirma as informações abaixo?</h4>
+        <p>Nome: {nome}</p>
+        <p>Email: {email}</p>
+        <p>Mensagem: {mensagem}</p>
+
+        <div className={styles.containerBotoes}>
+          <button type="button" className={styles.botaoFechar} onClick={fecharModal}>Fechar</button>
+          <button type="button" className={styles.botaoConfirmar} onClick={confirmar}>Confirmar</button>
+        </div>
+      </dialog>
     </div>
   )
 }
